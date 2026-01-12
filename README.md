@@ -11,7 +11,7 @@ This repo is designed to be **minimal, understandable, and production-ready**, w
 ### Backend
 
 * Express.js + TypeScript
-* Nodemon for hot reload
+* tsx watch for hot reload
 * Prisma ORM (type-safe DB access)
 * Zod-ready request validation
 * dotenv for environment variables
@@ -39,7 +39,7 @@ This repo is designed to be **minimal, understandable, and production-ready**, w
 | Layer    | Tech                              |
 | -------- | --------------------------------- |
 | Frontend | Next.js, TypeScript, Tailwind CSS |
-| Backend  | Express.js, TypeScript, Nodemon   |
+| Backend  | Express.js, TypeScript,   |
 | Database | PostgreSQL / MySQL / SQLite       |
 | ORM      | Prisma                            |
 | Tooling  | pnpm, Prettier                    |
