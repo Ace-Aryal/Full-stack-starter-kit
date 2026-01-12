@@ -11,8 +11,8 @@ router.route("/register").post((req, res) => {
 });
 router.route("/").get(
   asyncHandler(async (req, res, next) => {
-    const users = await prisma.users.findMany({});
-    res.json({ users });
+    const user = await prisma.users.findMany({});
+    res.json({ user, message: "Get all users" });
   })
 );
 export default router;
