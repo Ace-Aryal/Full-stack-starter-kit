@@ -61,7 +61,7 @@ full-stack-starter-kit
 │   ├── prisma
 │   │   └── schema.prisma
 │   ├── tsconfig.json
-│   ├── nodemon.json
+│   ├── prisma.config.ts
 │   ├── .env
 │   └── package.json
 │
