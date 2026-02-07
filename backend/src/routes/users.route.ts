@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response, Router } from "express";
-import { asyncHandler } from "../utils/async-handler";
-import { prisma } from "../utils/prisma";
+import { asyncHandler } from "../utils/async-handler.js";
+import { prisma } from "../utils/prisma.js";
 
 const router = Router();
 router.route("/login").post((req, res) => {

@@ -1,6 +1,6 @@
 import { ZodError } from "zod";
 import { AxiosError } from "axios";
-import { Prisma } from "../generated/prisma/client";
+import { Prisma } from "../generated/prisma/client.js";
 
 class ApiError extends Error {
   status: number;

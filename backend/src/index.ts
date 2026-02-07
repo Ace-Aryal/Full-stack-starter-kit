@@ -1,4 +1,4 @@
-import { app } from "./app";
+import { app } from "./app.js";
 
 app.get("/", (_req, res) => {
   res.json({ message: "Express + TypeScript working 🚀" });
